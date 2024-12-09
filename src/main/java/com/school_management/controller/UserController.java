@@ -1,10 +1,8 @@
 package com.school_management.controller;
 
-import com.school_management.Exception.UserNotFoundException;
 import com.school_management.Service.UserService;
 import com.school_management.entity.User;
 import lombok.RequiredArgsConstructor;
-import lombok.SneakyThrows;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
